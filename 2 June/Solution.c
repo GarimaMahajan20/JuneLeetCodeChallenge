@@ -18,4 +18,5 @@ void deleteNode(struct ListNode* node) {
     dnode->next=NULL;
     free(dnode);
     dnode=NULL;
+    
 }
