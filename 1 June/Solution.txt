@@ -24,6 +24,7 @@ class Solution {
             root.left=root.right;
             root.right=x;
         }
+        
         return root;
 
         
