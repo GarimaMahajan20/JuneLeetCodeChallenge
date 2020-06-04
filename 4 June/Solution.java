@@ -22,4 +22,4 @@ class Solution {
     }
 }
 
-//Using two pointer approach.
+//Using two pointer approach. 
