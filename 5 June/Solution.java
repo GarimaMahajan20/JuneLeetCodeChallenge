@@ -22,7 +22,6 @@ class Solution {
         return w.length-1;
     }
 }
-
 /**
  * Your Solution object will be instantiated and called as such:
  * Solution obj = new Solution(w);
