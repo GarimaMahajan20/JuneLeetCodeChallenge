@@ -19,6 +19,5 @@ Output:
 Hint #1  
 What can you say about the position of the shortest person?
 If the position of the shortest person is i, how many people would be in front of the shortest person?
-
 Hint #2  
 Once you fix the position of the shortest person, what can you say about the position of the second shortest person?
