@@ -11,7 +11,6 @@ Credits:
 Special thanks to @pbrother for adding this problem and creating all test cases.
 
  
-
 Example 1:
 
 Input: s = "abc", t = "ahbgdc"
