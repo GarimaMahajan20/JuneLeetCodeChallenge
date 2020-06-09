@@ -11,17 +11,12 @@ class Solution {
         while(j<t.length()&&i<s.length()){
             if(s.charAt(i)==t.charAt(j)){
                 i++;
-                j++;
             }
-            else
-            {
-                j++;
+            j++;
+            if(i==s.length()){
+                return true;
             }
-        }
-        if(i==s.length()){
-            return true;
         }
         return false;
-        
     }
 }
