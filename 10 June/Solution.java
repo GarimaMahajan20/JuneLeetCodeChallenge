@@ -7,6 +7,6 @@ class Solution {
             }
         }
         return i;
-        
     }
 }
+//Linear search followed but can also be solved by binary search.
