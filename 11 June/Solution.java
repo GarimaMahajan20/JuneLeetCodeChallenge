@@ -24,4 +24,4 @@ class Solution {
         }     
     }
 }
-//Two pointer approach
+//It can also be done using Arrays.sort(nums) but since the question specifies thereby using two pointer approach.
