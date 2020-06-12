@@ -37,7 +37,6 @@ class RandomizedSet {
 
             currentIndex++;
         }
-
         return randomElement;
     }
 }
