@@ -11,6 +11,7 @@ class Solution {
             int value = Integer.parseInt(p);
             if (value < 0 || value > 255) return false;
         }
+        
         return IP.charAt(IP.length() - 1) != '.';
     }
     private boolean isValidIPV6(String IP) {
