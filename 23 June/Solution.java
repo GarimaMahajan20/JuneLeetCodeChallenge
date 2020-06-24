@@ -15,22 +15,9 @@
  */
 class Solution {
     public int countNodes(TreeNode root) {
-        return internalnodes(root)+countleafnodes(root);
-    }
-    public int countleafnodes(TreeNode root){
-        if(root==null)
-            return 0;
-        if(root.left==null&&root.right==null){
-            return 1;
-        }
-        return (countleafnodes(root.left)+countleafnodes(root.right));
-    }
-    public int internalnodes(TreeNode root){
-        if(root==null)
-            return 0;
-        if(root.left==null&&root.right==null){
+        if(root==null){
             return 0;
         }
-        return internalnodes(root.left)+internalnodes(root.right)+1;
+        return countNodes(root.left)+countNodes(root.right)+1;
     }
 }
